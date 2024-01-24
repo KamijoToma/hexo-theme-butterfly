@@ -462,6 +462,14 @@ waline:
   bg: # waline background
   pageview: true
   option:
+    reaction: true
+    emoji:
+      - //unpkg.com/@waline/emojis@1.2.0/qq
+      - //unpkg.com/@waline/emojis@1.2.0/tieba
+      - //unpkg.com/@waline/emojis@1.2.0/tw-emoji
+      - //unpkg.com/@waline/emojis@1.2.0/bmoji
+      - //unpkg.com/@waline/emojis@1.2.0/bilibili
+
 
 # utterances
 # https://utteranc.es/
