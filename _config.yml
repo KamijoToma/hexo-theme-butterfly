@@ -674,7 +674,7 @@ enter_transitions: true
 activate_power_mode:
   enable: false
   colorful: true # open particle animation (冒光特效)
-  shake: true #  open shake (抖動特效)
+  shake: false #  open shake (抖動特效)
   mobile: false
 
 # Background effects (背景特效)
@@ -760,12 +760,14 @@ hr_icon:
 
 # the subtitle on homepage (主頁subtitle)
 subtitle:
-  enable: false
+  enable: true
   # Typewriter Effect (打字效果)
   effect: true
   # Customize typed.js (配置typed.js)
   # https://github.com/mattboldt/typed.js/#customization
   typed_option:
+    loop: false
+    typeSpeed: 40
   # source 調用第三方服務
   # source: false 關閉調用
   # source: 1  調用一言網的一句話（簡體） https://hitokoto.cn/
@@ -774,7 +776,7 @@ subtitle:
   # subtitle 會先顯示 source , 再顯示 sub 的內容
   source: false
   # 如果關閉打字效果，subtitle 只會顯示 sub 的第一行文字
-  sub:
+  sub: 1
 
 # Loading Animation (加載動畫)
 preloader:
